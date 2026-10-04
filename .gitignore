@@ -16,15 +16,34 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
 
 # Virtual environments
 .venv/
 venv/
 env/
+.tox/
+.nox/
+.python-version
 
 # Secrets and local config
 .env
+.env.*
+!.env.example
 *.key
+*.pem
+*.p12
+
+# Build and packaging
+build/
+dist/
+pip-wheel-metadata/
+*.whl
 
 # Editor / OS
 .vscode/
