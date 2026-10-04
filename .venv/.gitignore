@@ -1,0 +1,33 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Data (rebuildable from the API)
+data/raw/
+data/processed/
+
+# Trained models
+models/*.joblib
+models/*.pkl
+
+# Generated figures (optional, see note below)
+reports/figures/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+*.key
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
